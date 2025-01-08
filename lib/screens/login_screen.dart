@@ -1,6 +1,7 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:gsm_mobil/screens/admin_screen.dart';
+import 'package:gsm_mobil/screens/guest_screen.dart';
 import 'package:gsm_mobil/screens/student_screen.dart';
 import 'package:gsm_mobil/screens/teacher_screen.dart';
 
@@ -198,7 +199,14 @@ class _login_screenState extends State<login_screen> {
                             child: FadeInUp(
                                 duration: Duration(milliseconds: 1800),
                                 child: MaterialButton(
-                                  onPressed: () {},
+                                  onPressed: () {
+                                    Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                          builder: (context) =>
+                                              const GuestScreen(),
+                                        ));
+                                  },
                                   height: 50,
                                   color: Colors.blue,
                                   shape: RoundedRectangleBorder(
