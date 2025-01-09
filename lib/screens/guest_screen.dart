@@ -38,7 +38,7 @@ class _GuestScreenState extends State<GuestScreen> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             SizedBox(
-              height: 20,
+              height: 10,
             ),
             Padding(
               padding: EdgeInsets.all(20),
@@ -47,11 +47,12 @@ class _GuestScreenState extends State<GuestScreen> {
                 children: <Widget>[
                   Image.asset(
                     'assets/images/guest_info.jpg',
-                    width: 800,
-                    height: 200,
+                    width: double.infinity,
+                    fit: BoxFit.cover,
+                    height: 150,
                   ),
                   SizedBox(
-                    height: 20,
+                    height: 10,
                   ),
                   Container(
                     decoration: BoxDecoration(
@@ -63,12 +64,12 @@ class _GuestScreenState extends State<GuestScreen> {
                       _infoMessage,
                       style: TextStyle(
                         color: Colors.white,
-                        fontSize: 18,
+                        fontSize: 16,
                       ),
                     ),
                   ),
                   SizedBox(
-                    height: 20,
+                    height: 10,
                   ),
                   Container(
                     decoration: BoxDecoration(
@@ -83,7 +84,7 @@ class _GuestScreenState extends State<GuestScreen> {
                             "Kurslar",
                             style: TextStyle(
                               color: Colors.black,
-                              fontSize: 25,
+                              fontSize: 20,
                             ),
                           ),
                         ),
@@ -93,7 +94,7 @@ class _GuestScreenState extends State<GuestScreen> {
                             _courses,
                             style: TextStyle(
                               color: Colors.white,
-                              fontSize: 18,
+                              fontSize: 16,
                             ),
                           ),
                         ),

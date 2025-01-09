@@ -161,10 +161,10 @@ class _login_screenState extends State<login_screen> {
                             ),
                           )),
                       SizedBox(
-                        height: 40,
+                        height: 20,
                       ),
                       SizedBox(
-                        height: 40,
+                        height: 20,
                       ),
                       FadeInUp(
                           duration: Duration(milliseconds: 1600),
@@ -188,10 +188,10 @@ class _login_screenState extends State<login_screen> {
                             ),
                           )),
                       SizedBox(
-                        height: 50,
+                        height: 20,
                       ),
                       SizedBox(
-                        height: 30,
+                        height: 20,
                       ),
                       Row(
                         children: <Widget>[
