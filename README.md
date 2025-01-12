@@ -1,16 +1,17 @@
-# gsm_mobil
 
-A new Flutter project.
+GALATA ART CENTER MOBILE APPLICATION
 
-## Getting Started
+The maintenance of some of the Galata Art Center Turkey is actively involved in music
+It is an organization that provides education. This application is from Galata Art Center.
+will be developed with its features. you will receive and
+Physical lesson monitoring, management of classroom rooms,
+many things, such as instructors determining the course course online,
+Includes automation. The aim of this realization is Galata Art Center
+to keep track of students, teachers and institutions of payments, and
+It makes planning easier. In this way
+confusion in laborious and primitive manual tracking results.
+to prevent, to automate some simple operations, to select
+Increasing prestige, increasing follow-up of courses for backup
+It also has side accounts such as.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![project schema](https://github.com/user-attachments/assets/8f165c17-0839-4a4d-8de9-a329e0cf8635)
